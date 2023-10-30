@@ -1,5 +1,5 @@
 server {
-    server_name 84.201.176.14 tekut.serveblog.net;
+    server_name tekut.serveblog.net;
 
     location /api/ {
         proxy_pass http://127.0.0.1:8000;
@@ -38,11 +38,11 @@ server {
 }
 
 server {
-    server_name 84.201.176.14 kittygramyap.servehalflife.com;
+    server_name kittygramyap.servehalflife.com;
 
     location /media/ {
         client_max_body_size 20M;               
-        alias /var/www/kittygram/media/;
+        root /var/www/kittygram;
     }
 
     location /api/ {
