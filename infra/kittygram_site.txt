@@ -1,0 +1,5 @@
+IP: 84.201.176.14;
+name_taski: https://tekut.serveblog.net;
+name_kittygram: https://kittygramyap.servehalflife.com;
+login: tekut;
+password: tekut;
